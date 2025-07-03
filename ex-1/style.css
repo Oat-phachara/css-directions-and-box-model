@@ -1,1 +1,27 @@
-/* Start coding here */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #acc8d7;
+    padding: 2vw;
+    margin-bottom: 1vw;
+}
+
+.title{
+    color: #253f4b;
+}
+
+.container{
+    margin: 2vw;
+    border: solid 1px black;
+    padding: 2vw;
+    width: 40%;
+}
+
+.image{
+    width: 600px;
+    height: 300px;
+    margin: 1vw;
+}
