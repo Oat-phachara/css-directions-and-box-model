@@ -1,1 +1,65 @@
-/* Start coding here */
+body {
+  background: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #94aab9;
+  margin: 20px 40px 0 40px;
+  padding: 24px 0 24px 24px;
+}
+
+.header h2 {
+  margin: 0;
+  color: #22384a;
+  font-weight: 600;
+}
+
+.container {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #dde3e6;
+  border: 3px solid #22384a;
+  width: 500px;
+  margin-bottom: 32px;
+  padding: 16px 20px 20px 20px;
+  box-sizing: border-box;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #22384a;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.card-image {
+  width: 100%;
+  height: 120px;
+  background: #eee;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-placeholder {
+  width: 95%;
+  height: 90px;
+  background: #e0e0e0;
+  position: relative;
+}
+
+.card-desc {
+  font-size: 14px;
+  color: #22384a;
+  word-break: break-word;
+  text-transform: uppercase;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
